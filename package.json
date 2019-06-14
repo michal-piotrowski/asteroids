@@ -1,0 +1,28 @@
+{
+  "name": "asteroids",
+  "version": "1.0.0",
+  "description": "3D JavaScript realisation of a popular retro game",
+  "main": "js/Asteroids.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode development --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://xarpeo@bitbucket.org/xarpeo/asteroids.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/xarpeo/asteroids#readme",
+  "devDependencies": {
+    "webpack-cli": "^3.3.0",
+    "three": "^0.103.0",
+    "webpack": "^4.29.6"
+  },
+  "dependencies": {
+    "flycontrols-three": "^1.0.2",
+    "three-fly-controls": "^1.1.0",
+    "three-orbitcontrols": "^2.102.1",
+    "three-pointer-lock-controls": "^1.0.0"
+  }
+}
