@@ -4,6 +4,17 @@ body {
 }
 
 canvas {
-
   display:block;
+}
+
+#camera, #ship {
+  font-family: verdana;
+}
+
+.debugLabel {
+  color: lightgray;
+  background-color: #000B18;
+  display:inline;
+  float:left;
+  width: 24vw;
 }
