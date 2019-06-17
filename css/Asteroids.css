@@ -1,4 +1,5 @@
 body {
+  font-family: verdana;
   margin: 0;
   height: 100vh;
 }
@@ -17,4 +18,55 @@ canvas {
   display:inline;
   float:left;
   width: 24vw;
+}
+
+#name {
+  color: green;
+  font-weight: bold;
+  font-size: 30px;
+  position: absolute;
+  top: 20px;
+  width: 100%;
+  text-align: center;
+  z-index: 100;
+  display:block;
+}
+
+#score {
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 100%;
+  text-align: left;
+  z-index: 100;
+  display:block;
+}
+
+#live {
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 100%;
+  text-align: right;
+  z-index: 100;
+  display:block;
+}
+
+#authors {
+  color: green;
+  font-weight: bold;
+  font-size: 20px;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  width: 100%;
+  text-align: right;
+  z-index: 100;
+  display:block;
 }
